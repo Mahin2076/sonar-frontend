@@ -121,7 +121,7 @@ export default function Component() {
                   style={{ animationDelay: "1s" }}
                 ></div>
               </div>
-              MONITORING r/CALIFORNIANEWS • 81% ACCURACY • ARDUINO ALERTS
+              MONITORING r/CALIFORNIANEWS • 96.23% ACCURACY • ARDUINO ALERTS
             </div>
           </div>
 
@@ -212,7 +212,7 @@ export default function Component() {
           </h1>
 
           <p className="text-lg md:text-xl font-light max-w-4xl mx-auto mb-12 animate-float-2 leading-relaxed text-gray-300">
-            Advanced natural disaster detection and alert systems powered by cutting-edge AI technology, real-time
+            Advanced natural disaster detection and alert systems powered by cutting-edge AI technology, real time
             social media analysis, and global sensor networks protecting millions of lives worldwide
           </p>
 
@@ -239,8 +239,8 @@ export default function Component() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in-up">
             {[
               { value: "24/7", label: "MONITORING", desc: "Continuous surveillance" },
-              { value: "150+", label: "COUNTRIES", desc: "Global coverage" },
-              { value: "81%", label: "ACCURACY", desc: "Prediction precision" },
+              { value: "100%", label: "CAlIFORNIA", desc: "coverage" },
+              { value: "96.23%", label: "ACCURACY", desc: "Prediction precision" },
               { value: "< 30s", label: "RESPONSE", desc: "Alert delivery time" },
             ].map((stat, i) => (
               <div
@@ -288,7 +288,7 @@ export default function Component() {
                   </h3>
                 </div>
                 <p className="text-lg font-light text-gray-300 leading-relaxed">
-                  The system gathers real-time data using Reddit's API, specifically monitoring the newest posts from
+                  The system gathers real time data using Reddit's API, specifically monitoring the newest posts from
                   the r/CaliforniaNews subreddit. These posts are then analyzed by our custom-trained NLP model to
                   determine if they mention any potential disasters or emergencies, often detecting reports before
                   mainstream news outlets.
@@ -336,7 +336,7 @@ export default function Component() {
                 <div className="p-8 border border-white/10 rounded-lg backdrop-blur-sm bg-gradient-to-br from-green-500/10 to-blue-500/10">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                    <span className="text-sm font-mono">REAL-TIME PROCESSING</span>
+                    <span className="text-sm font-mono">REAL TIME PROCESSING</span>
                   </div>
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div className="p-3 bg-black/30 rounded">
@@ -437,7 +437,7 @@ export default function Component() {
                     <div className="flex gap-2">
                       <button className="flex-1 px-3 py-2 bg-white/10 rounded text-xs">iOS App</button>
                       <button className="flex-1 px-3 py-2 bg-white/10 rounded text-xs">Push Notification</button>
-                      <button className="flex-1 px-3 py-2 bg-white/10 rounded text-xs">Real-time Alert</button>
+                      <button className="flex-1 px-3 py-2 bg-white/10 rounded text-xs">Real time Alert</button>
                     </div>
                   </div>
                 </div>
@@ -520,7 +520,7 @@ export default function Component() {
                   "Location identification and extraction",
                   "Pretrained SpaCy model integration",
                   "Geographic context mapping",
-                  "Real-time language processing",
+                  "Real time language processing",
                 ],
               },
               {
@@ -536,7 +536,7 @@ export default function Component() {
               },
               {
                 title: "iOS MOBILE APP",
-                desc: "Real-time push notification system that connects to the main server and instantly alerts users about detected disasters",
+                desc: "Real time push notification system that connects to the main server and instantly alerts users about detected disasters",
                 icon: "iOS",
                 features: [
                   "Instant push notifications",
@@ -591,7 +591,7 @@ export default function Component() {
             </div>
             <div className="text-center p-8 border border-white/10 rounded-lg backdrop-blur-sm animate-float-3">
               <div className="text-3xl font-bold mb-2 bg-gradient-to-r from-green-400 to-yellow-400 bg-clip-text text-transparent">
-                81%
+                96.23%
               </div>
               <div className="text-sm text-gray-400">SYSTEM UPTIME</div>
             </div>
@@ -607,7 +607,7 @@ export default function Component() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-serif mb-6 animate-float-1">
               <span className="font-light text-transparent" style={{ WebkitTextStroke: "1.5px white" }}>
-                REAL-TIME
+                REAL TIME
               </span>
               <span className="text-white font-normal ml-4">DATA STREAMS</span>
             </h2>
@@ -620,7 +620,7 @@ export default function Component() {
             {[
               { title: "SOCIAL POSTS ANALYZED", value: "2,847", unit: "posts/minute", trend: "+12%" },
               { title: "LOCATION EXTRACTIONS", value: "15,392", unit: "coordinates/day", trend: "+8%" },
-              { title: "DISASTER KEYWORDS", value: "81%", unit: "accuracy rate", trend: "+2.1%" },
+              { title: "DISASTER KEYWORDS", value: "96.23%", unit: "accuracy rate", trend: "+2.1%" },
             ].map((data, i) => (
               <div
                 key={i}
@@ -712,7 +712,7 @@ export default function Component() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-serif mb-6 animate-float-1">
               <span className="font-light text-transparent" style={{ WebkitTextStroke: "1.5px white" }}>
-                REAL-WORLD
+                REAL WORLD
               </span>
               <span className="text-white font-normal ml-4">IMPACT</span>
             </h2>
@@ -736,7 +736,7 @@ export default function Component() {
                   provides instant physical alerts through lights and buzzers, making warnings accessible to everyone.
                 </p>
                 <p>
-                  With 81% accuracy and real-time Reddit monitoring, SONAR bridges the critical gap between when
+                  With 96.23% accuracy and real time Reddit monitoring, SONAR bridges the critical gap between when
                   disasters begin and when official alerts are issued.
                 </p>
               </div>
@@ -792,7 +792,7 @@ export default function Component() {
 
               <h2 className="text-3xl md:text-5xl font-serif mb-8">
                 <span className="font-light text-transparent" style={{ WebkitTextStroke: "1.5px white" }}>
-                  NEXT-GEN
+                  NEXT GEN
                 </span>
                 <br />
                 <span className="text-white font-normal">DISASTER DETECTION</span>
@@ -801,7 +801,7 @@ export default function Component() {
               <div className="space-y-6 text-lg font-light text-gray-300">
                 <p>
                   Our Social Online Natural Disaster Alert Radar represents the pinnacle of predictive technology,
-                  combining real-time social media analysis with advanced natural language processing algorithms.
+                  combining real time social media analysis with advanced natural language processing algorithms.
                 </p>
                 <p>
                   We monitor Reddit posts, Twitter feeds, and other social platforms to detect early signs of natural
@@ -851,7 +851,7 @@ export default function Component() {
                     <div className="text-center">
                       <div className="text-green-400 text-sm font-mono mb-2 animate-pulse">SCANNING ACTIVE</div>
                       <div className="text-xs text-gray-400">SOCIAL MEDIA MONITORING</div>
-                      <div className="text-xs text-gray-500 mt-2">81% ACCURACY • ARDUINO ALERTS</div>
+                      <div className="text-xs text-gray-500 mt-2">96.23% ACCURACY • ARDUINO ALERTS</div>
                     </div>
                   </div>
                 </div>
